@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="respiravillenabien.admin.project_base_simple.modules.MainActivity">
+
+
+    <Button
+        android:id="@+id/main_simple_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name_simple"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/main_butterknife_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name_butterknife"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/main_button_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/button_name_font"
+        android:background="@drawable/ripple_button"
+        android:textColor="@android:color/white"/>
+
+
+
+</LinearLayout>

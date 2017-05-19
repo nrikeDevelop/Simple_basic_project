@@ -1,0 +1,15 @@
+<resources>
+
+    <!--Buttons-->
+    <string name="app_name">Project_Base_Simple</string>
+    <string name="button_name_simple">Botón</string>
+    <string name="button_name_butterknife">Butterknife</string>
+    <string name="button_name_font">Fuente cambiada</string>
+
+    <!--Messages-->
+    <string name="message_simple">Este botón esta llamado por la manera convenciaonal findByView(R.layout.etc) </string>
+    <string name="message_butterknife">Este botón esta llamado con butterknife</string>
+    <string name="message_font">Boton con fuente, y ripple button. Ver carpeta assets y drawable</string>
+
+
+</resources>
